@@ -1,0 +1,18 @@
+##Connect to google cloud SQL in Windows
+
+Download 'cloud_sql_proxy.exe' to Google Cloud SDK folder
+In Google SDk:
+
+gcloud auth application-default login
+cloud_sql_proxy.exe -instances=euphoric-oath-172818:us-east1:apitestdb=tcp:3306
+
+In MySQL client shell:
+mysql -u root-p --host 127.0.0.1
+
+
+#use Instance connection name on the SQL instance page
+
+## SQL schema
+CREATE TABLE anime(id INT(6) PRIMARY KEY, name VARCHAR(100) NOT NULL,us_score DOUBLE, jp_score DOUBLE, us_rating VARCHAR(50), us_producer VARCHAR(50));
+CREATE TABLE anime_genre(id INT(6), genre VARCHAR(50), PRIMARY KEY (id, genre));
+ALTER TABLE anime MODIFY us_producer VARCHAR(100);
