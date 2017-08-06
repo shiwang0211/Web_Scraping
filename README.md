@@ -11,18 +11,21 @@ The applied techniques include:
 - Utilize Pandas, Numpy, [Seaborn](https://seaborn.pydata.org/) to manipulate dataframes and visualize results
 
 Histogram for anime **rating** and **genre**
+------
 
 Figure 1 | Figure 2
 :-------------------------:|:-------------------------:
 <img src="/fig/Rating_Count_Plot.png" width="500">  |  <img src="/fig/Producer_Count_Plot.png" width="500">
 
-The overall distribution of scores for all animes:
+The overall distribution of scores for all animes
+------
 
 Figure 3 | Figure 4
 :-------------------------:|:-------------------------:
 <img src="/fig/Two_Hist_Plot.png" width="500"> | <img src="/fig/Two_Corr_Plot.png" width="500">
 
-Basic comparison by rating and top 15 genres:
+Basic comparison by rating and top 15 genres
+------
 
 Figure 5 | Figure 6
 :-------------------------:|:-------------------------:
