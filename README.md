@@ -27,7 +27,7 @@ Basic comparison by rating and top 15 genres:
 Figure 5 | Figure 6
 :-------------------------:|:-------------------------:
 
-<img src="/fig/By_Rating_Comparison_Plot.png" width="500"> | <img src="/fig/By_genre_Comparison_Plot.png" width="500">
+<img src="/fig/By_rating_Comparison_Plot.png" width="500"> | <img src="/fig/By_genre_Comparison_Plot.png" width="500">
 
 
 Contact
