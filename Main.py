@@ -102,7 +102,7 @@ def CountPlot(dataset, column, label, s, a):
     plt.xlabel(label)
     plt.ylabel('Frequency')
     plt.tight_layout()
-    sns_plot.savefig('./fig/'+ label + ' Count Plot.png',dpi=100)
+    sns_plot.savefig('./fig/'+ label + '_Count_Plot.png',dpi=100)
 
 def TwoHist(dataset):
     sns.set_style("darkgrid")
@@ -112,10 +112,10 @@ def TwoHist(dataset):
     plt.xlabel('Score')
     plt.ylabel('Frequency')
     plt.tight_layout()
-    plt.savefig('./fig/Two Hist Plot.png',dpi=100)    
+    plt.savefig('./fig/Two_His_Plot.png',dpi=100)    
 
     sns.jointplot(x='us_score', y='jp_score', data=dataset).set_axis_labels('US Score','JP Score')
-    plt.savefig('./fig/Two Corr Plot.png',dpi=100)
+    plt.savefig('./fig/Two_Corr_Plot.png',dpi=100)
     
 def ByColumnComparison(dataset,column):
     orders = dataset[column].value_counts().keys()
@@ -130,7 +130,7 @@ def ByColumnComparison(dataset,column):
     
     sns.factorplot(y=column, x='Score', hue='Country', data=df, kind="bar", 
                    size = 4, aspect = 2, order=orders,ci =None)
-    plt.savefig('./fig/By '+ column +' Comparison Plot.png',dpi=100)
+    plt.savefig('./fig/By_'+ column +'_Comparison_Plot.png',dpi=100)
         
 
 # Analyze the dataset
