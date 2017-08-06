@@ -6,7 +6,7 @@ This repository aims to analyze and compare the user scores of animes from two p
 - [Animesachi.com](https://www.animesachi.com/) in Japan
 
 The applied techniques include:
-- Web scraping using urllib, [Beatiful Soup](https://www.crummy.com/software/BeautifulSoup/), re
+- Web scraping using urllib, [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/), re
 - Store the collected data in [Google Cloud SQL for MySQL](https://cloud.google.com/sql/docs/mysql/)
 - Utilize Pandas, Numpy, [Seaborn](https://seaborn.pydata.org/) to manipulate dataframes and visualize results
 
