@@ -22,7 +22,7 @@ The overall distribution of scores for all animes
 
 Figure 3 | Figure 4
 :-------------------------:|:-------------------------:
-<img src="/fig/Two_Hist_Plot.png" width="500"> | <img src="/fig/Two_Corr_Plot.png" width="500">
+<img src="/fig/Two_His_Plot.png" width="500"> | <img src="/fig/Two_Corr_Plot.png" width="500">
 
 Basic comparison by rating and top 15 genres
 ------
