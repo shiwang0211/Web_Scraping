@@ -13,21 +13,21 @@ The applied techniques include:
 Histogram for anime **rating** and **genre**
 ------
 
-| 
+Rating | Producer
 :-------------------------:|:-------------------------:
 <img src="/fig/Rating_Count_Plot.png" width="500">  |  <img src="/fig/Producer_25_Count_Plot.png" width="500">
 
 The overall distribution of scores for all animes
 ------
 
-Figure 3 | Figure 4
+Distribution of Rating (1) | Distribution of Rating (2)
 :-------------------------:|:-------------------------:
 <img src="/fig/Two_His_Plot.png" width="500"> | <img src="/fig/Two_Corr_Plot.png" width="500">
 
 Basic comparison by rating and top 15 genres
 ------
 
-Figure 5 | Figure 6
+Group by Rating | Group by Genre
 :-------------------------:|:-------------------------:
 <img src="/fig/By_rating_Comparison_Plot.png" width="500"> | <img src="/fig/By_genre_Comparison_Plot.png" width="500">
 
