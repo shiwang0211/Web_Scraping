@@ -15,7 +15,7 @@ Histogram for anime **rating** and **genre**
 
 Figure 1 | Figure 2
 :-------------------------:|:-------------------------:
-<img src="/fig/Rating_Count_Plot.png" width="500">  |  <img src="/fig/Producer_Count_Plot.png" width="500">
+<img src="/fig/Rating_Count_Plot.png" width="500">  |  <img src="/fig/Producer_25_Count_Plot.png" width="500">
 
 The overall distribution of scores for all animes
 ------
