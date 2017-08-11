@@ -10,6 +10,17 @@ The applied techniques include:
 - Store the collected data in [Google Cloud SQL for MySQL](https://cloud.google.com/sql/docs/mysql/)
 - Utilize Pandas, Numpy, [Seaborn](https://seaborn.pydata.org/) to manipulate dataframes and visualize results
 
+Sample codes to extract information from html
+------
+```python
+ Name_US = bsObj.findAll("span", {"itemprop":"name"})[0].get_text()
+ Score_US = float(bsObj.findAll("div", {"class":"fl-l score"})[0].get_text())
+ Rating_US = bsObj.find(text= 'Rating:').parent.parent.get_text()[11:-3]
+ Producer_US = bsObj.find(text= 'Studios:').parent.parent.get_text()[10:-1]
+ sql = "insert into anime (id, name, us_score, us_rating, us_producer) values (%s,%s,%s,%s,%s)"
+ c.execute(sql,(index,Name_US, Score_US, Rating_US, Producer_US))
+ ```
+ 
 Histogram for anime **rating** and **genre**
 ------
 
