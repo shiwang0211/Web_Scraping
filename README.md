@@ -31,6 +31,10 @@ Figure 5 | Figure 6
 :-------------------------:|:-------------------------:
 <img src="/fig/By_rating_Comparison_Plot.png" width="500"> | <img src="/fig/By_genre_Comparison_Plot.png" width="500">
 
+Sample records
+------
+<img src="/fig/database.png" width="500">
+
 
 Contact
 =======
